@@ -5,11 +5,19 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="conversions" Type="Folder">
-		<Item Name="URI to Path.vi" Type="VI" URL="../URI to Path.vi"/>
-		<Item Name="Path to URI.vi" Type="VI" URL="../Path to URI.vi"/>
+	<Item Name="Utilities" Type="Folder">
+		<Item Name="String to Path.vi" Type="VI" URL="../String to Path.vi"/>
+		<Item Name="Path to String.vi" Type="VI" URL="../Path to String.vi"/>
+		<Item Name="Escape URI.vi" Type="VI" URL="../Escape URI.vi"/>
+		<Item Name="Unescape URI.vi" Type="VI" URL="../Unescape URI.vi"/>
+		<Item Name="Query to KeyValue Pairs.vi" Type="VI" URL="../Query to KeyValue Pairs.vi"/>
+		<Item Name="KeyValue Pairs to Query.vi" Type="VI" URL="../KeyValue Pairs to Query.vi"/>
+		<Item Name="Extract URI Components.vi" Type="VI" URL="../Extract URI Components.vi"/>
+		<Item Name="Build URI from Components.vi" Type="VI" URL="../Build URI from Components.vi"/>
+	</Item>
+	<Item Name="typedefs" Type="Folder">
+		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../URI Components -- cluster.ctl"/>
 	</Item>
 	<Item Name="ParseURI.vi" Type="VI" URL="../ParseURI.vi"/>
 	<Item Name="ConstructURI.vi" Type="VI" URL="../ConstructURI.vi"/>
-	<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../URI Components -- cluster.ctl"/>
 </Library>
