@@ -13,9 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Test_URI Parsing.vi" Type="VI" URL="../../tests/Test_URI Parsing.vi"/>
+			<Item Name="Test_URI Parsing.vi" Type="VI" URL="../tests/Test_URI Parsing.vi"/>
 		</Item>
-		<Item Name="openURI.lvlib" Type="Library" URL="../openURI.lvlib"/>
+		<Item Name="openURI.lvlib" Type="Library" URL="../source/openURI.lvlib"/>
 		<Item Name="URI RFC3986" Type="Hyperlink">
 			<Property Name="NI.Address" Type="Str">https://tools.ietf.org/html/rfc3986</Property>
 		</Item>
@@ -417,7 +417,7 @@
 				<Item Name="FF154AA9FA361469346938CA7F095A4AValid Path__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AValid Path__ogtk.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
-			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/project/Caraya/Run Tests in Active Project.vi"/>
+			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2013/project/Caraya/Run Tests in Active Project.vi"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
