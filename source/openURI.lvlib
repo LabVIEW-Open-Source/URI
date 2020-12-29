@@ -17,7 +17,10 @@
 	</Item>
 	<Item Name="typedefs" Type="Folder">
 		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../URI Components -- cluster.ctl"/>
+		<Item Name="Authority Components -- cluster.ctl" Type="VI" URL="../Authority Components -- cluster.ctl"/>
 	</Item>
 	<Item Name="ParseURI.vi" Type="VI" URL="../ParseURI.vi"/>
 	<Item Name="ConstructURI.vi" Type="VI" URL="../ConstructURI.vi"/>
+	<Item Name="ParseAuthority.vi" Type="VI" URL="../ParseAuthority.vi"/>
+	<Item Name="ConstructAuthority.vi" Type="VI" URL="../ConstructAuthority.vi"/>
 </Library>
