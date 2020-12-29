@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-29 17:11:38" Creator="normandinf" Comments="" ID="93ae29c2e93abc002dc8168a5204ca4f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-29 17:20:50" Creator="normandinf" Comments="" ID="257da8ddeba024610cbd9ed58360cd74">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_OpenURI</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -352,7 +352,7 @@
         <Path>source\String to Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8BBE4BD5F7FAB75CC9179ABD5F39888</GUID>
+      <GUID>266851FAD6932AD002FA70F046989410</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
