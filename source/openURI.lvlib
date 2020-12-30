@@ -9,25 +9,22 @@
 
 </Property>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="String to Path.vi" Type="VI" URL="../String to Path.vi"/>
-		<Item Name="Path to String.vi" Type="VI" URL="../Path to String.vi"/>
-		<Item Name="Escape URI.vi" Type="VI" URL="../Escape URI.vi"/>
-		<Item Name="Unescape URI.vi" Type="VI" URL="../Unescape URI.vi"/>
-		<Item Name="Query to KeyValue Pairs.vi" Type="VI" URL="../Query to KeyValue Pairs.vi"/>
-		<Item Name="KeyValue Pairs to Query.vi" Type="VI" URL="../KeyValue Pairs to Query.vi"/>
-		<Item Name="Extract URI Components.vi" Type="VI" URL="../Extract URI Components.vi"/>
-		<Item Name="Build URI from Components.vi" Type="VI" URL="../Build URI from Components.vi"/>
-		<Item Name="isReservedCharacter.vi" Type="VI" URL="../isReservedCharacter.vi"/>
+		<Item Name="ParseURI.vi" Type="VI" URL="../utilities/ParseURI.vi"/>
+		<Item Name="ConstructURI.vi" Type="VI" URL="../utilities/ConstructURI.vi"/>
+		<Item Name="ParseAuthority.vi" Type="VI" URL="../utilities/ParseAuthority.vi"/>
+		<Item Name="ConstructAuthority.vi" Type="VI" URL="../utilities/ConstructAuthority.vi"/>
+		<Item Name="ParseSegments.vi" Type="VI" URL="../utilities/ParseSegments.vi"/>
+		<Item Name="ConstructPath.vi" Type="VI" URL="../utilities/ConstructPath.vi"/>
+		<Item Name="String to Path.vi" Type="VI" URL="../utilities/String to Path.vi"/>
+		<Item Name="Path to String.vi" Type="VI" URL="../utilities/Path to String.vi"/>
+		<Item Name="Escape URI.vi" Type="VI" URL="../utilities/Escape URI.vi"/>
+		<Item Name="Unescape URI.vi" Type="VI" URL="../utilities/Unescape URI.vi"/>
+		<Item Name="Query to KeyValue Pairs.vi" Type="VI" URL="../utilities/Query to KeyValue Pairs.vi"/>
+		<Item Name="KeyValue Pairs to Query.vi" Type="VI" URL="../utilities/KeyValue Pairs to Query.vi"/>
+		<Item Name="Extract URI Components.vi" Type="VI" URL="../utilities/Extract URI Components.vi"/>
+		<Item Name="Build URI from Components.vi" Type="VI" URL="../utilities/Build URI from Components.vi"/>
+		<Item Name="isReservedCharacter.vi" Type="VI" URL="../utilities/isReservedCharacter.vi"/>
+		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../utilities/URI Components -- cluster.ctl"/>
 	</Item>
-	<Item Name="typedefs" Type="Folder">
-		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../URI Components -- cluster.ctl"/>
-		<Item Name="Authority Components -- cluster.ctl" Type="VI" URL="../Authority Components -- cluster.ctl"/>
-	</Item>
-	<Item Name="class" Type="Folder">
-		<Item Name="URI.lvclass" Type="LVClass" URL="../uri/URI.lvclass"/>
-	</Item>
-	<Item Name="ParseURI.vi" Type="VI" URL="../ParseURI.vi"/>
-	<Item Name="ConstructURI.vi" Type="VI" URL="../ConstructURI.vi"/>
-	<Item Name="ParseAuthority.vi" Type="VI" URL="../ParseAuthority.vi"/>
-	<Item Name="ConstructAuthority.vi" Type="VI" URL="../ConstructAuthority.vi"/>
+	<Item Name="URI.lvclass" Type="LVClass" URL="../uri/URI.lvclass"/>
 </Library>
