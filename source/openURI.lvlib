@@ -23,6 +23,9 @@
 		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../URI Components -- cluster.ctl"/>
 		<Item Name="Authority Components -- cluster.ctl" Type="VI" URL="../Authority Components -- cluster.ctl"/>
 	</Item>
+	<Item Name="class" Type="Folder">
+		<Item Name="URI.lvclass" Type="LVClass" URL="../uri/URI.lvclass"/>
+	</Item>
 	<Item Name="ParseURI.vi" Type="VI" URL="../ParseURI.vi"/>
 	<Item Name="ConstructURI.vi" Type="VI" URL="../ConstructURI.vi"/>
 	<Item Name="ParseAuthority.vi" Type="VI" URL="../ParseAuthority.vi"/>
