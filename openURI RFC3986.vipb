@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-30 13:45:18" Creator="normandinf" Comments="" ID="2136fa9f70d7f11b350ab32bcf24a559">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-30 13:59:42" Creator="normandinf" Comments="" ID="57b1715d22139a4674f8679d2ed6715b">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_OpenURI</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -73,7 +73,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\LabVIEW Open Source Project</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -106,6 +106,12 @@
       <Destination_Overrides>
         <Path>help</Path>
         <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>tools/openURI on Github.vi</Path>
+        <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -400,7 +406,7 @@
         <Path>source\uri</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7497C5CAFD4ED334F575CEF2A501ABB</GUID>
+      <GUID>E0626278F35471C332B9D129905B467F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -659,7 +665,7 @@
         <Path>source\uri</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2EEF2BAB0BF8AB82046FF0928446145</GUID>
+      <GUID>F6B1BCA2AAC109767781626425077135</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -764,7 +770,7 @@
         <Path>source\uri\Delete Query.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F73DEB5CCB9D26F6ABAB24671B3D05C6</GUID>
+      <GUID>F6B9968AC0AC843E4A6341C8B171F2D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

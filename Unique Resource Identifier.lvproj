@@ -16,8 +16,8 @@
 			<Item Name="Test_URI_Class.vi" Type="VI" URL="../tests/Test_URI_Class.vi"/>
 			<Item Name="Test_URI Parsing.vi" Type="VI" URL="../tests/Test_URI Parsing.vi"/>
 		</Item>
-		<Item Name="Help" Type="Folder">
-			<Item Name="openURI on Github.vi" Type="VI" URL="../source/help/openURI on Github.vi"/>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="openURI on Github.vi" Type="VI" URL="../source/tools/openURI on Github.vi"/>
 		</Item>
 		<Item Name="openURI.lvlib" Type="Library" URL="../source/openURI.lvlib"/>
 		<Item Name="URI RFC3986" Type="Hyperlink">
