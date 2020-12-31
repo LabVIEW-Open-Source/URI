@@ -13,7 +13,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Run All Tests.vi" Type="VI" URL="../tests/Run All Tests.vi"/>
+			<Item Name="Test_URI_Class.vi" Type="VI" URL="../tests/Test_URI_Class.vi"/>
+			<Item Name="Test_URI_Class_SetPath.vi" Type="VI" URL="../tests/Test_URI_Class_SetPath.vi"/>
+			<Item Name="Test_URI_Class_SetQuery.vi" Type="VI" URL="../tests/Test_URI_Class_SetQuery.vi"/>
 			<Item Name="Test_URI Parsing.vi" Type="VI" URL="../tests/Test_URI Parsing.vi"/>
+			<Item Name="Test_SharedNetworkVariable.vi" Type="VI" URL="../tests/Test_SharedNetworkVariable.vi"/>
+			<Item Name="Test_IOVariable.vi" Type="VI" URL="../tests/Test_IOVariable.vi"/>
+		</Item>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="openURI on Github.vi" Type="VI" URL="../source/tools/openURI on Github.vi"/>
+		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="OpenURI - Basic Example.vi" Type="VI" URL="../source/examples/OpenURI - Basic Example.vi"/>
 		</Item>
 		<Item Name="openURI.lvlib" Type="Library" URL="../source/openURI.lvlib"/>
 		<Item Name="URI RFC3986" Type="Hyperlink">

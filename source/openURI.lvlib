@@ -9,22 +9,32 @@
 
 </Property>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="String to Path.vi" Type="VI" URL="../String to Path.vi"/>
-		<Item Name="Path to String.vi" Type="VI" URL="../Path to String.vi"/>
-		<Item Name="Escape URI.vi" Type="VI" URL="../Escape URI.vi"/>
-		<Item Name="Unescape URI.vi" Type="VI" URL="../Unescape URI.vi"/>
-		<Item Name="Query to KeyValue Pairs.vi" Type="VI" URL="../Query to KeyValue Pairs.vi"/>
-		<Item Name="KeyValue Pairs to Query.vi" Type="VI" URL="../KeyValue Pairs to Query.vi"/>
-		<Item Name="Extract URI Components.vi" Type="VI" URL="../Extract URI Components.vi"/>
-		<Item Name="Build URI from Components.vi" Type="VI" URL="../Build URI from Components.vi"/>
-		<Item Name="isReservedCharacter.vi" Type="VI" URL="../isReservedCharacter.vi"/>
+		<Item Name="ConstructURI.vi" Type="VI" URL="../utilities/ConstructURI.vi"/>
+		<Item Name="ParseURI.vi" Type="VI" URL="../utilities/ParseURI.vi"/>
+		<Item Name="ConstructAuthority.vi" Type="VI" URL="../utilities/ConstructAuthority.vi"/>
+		<Item Name="ParseAuthority.vi" Type="VI" URL="../utilities/ParseAuthority.vi"/>
+		<Item Name="Construct Path Component.vi" Type="VI" URL="../utilities/Construct Path Component.vi"/>
+		<Item Name="Parse Path Component.vi" Type="VI" URL="../utilities/Parse Path Component.vi"/>
+		<Item Name="Construct Query Component.vi" Type="VI" URL="../utilities/Construct Query Component.vi"/>
+		<Item Name="Parse Query Component.vi" Type="VI" URL="../utilities/Parse Query Component.vi"/>
+		<Item Name="String to Path.vi" Type="VI" URL="../utilities/String to Path.vi"/>
+		<Item Name="Path to String.vi" Type="VI" URL="../utilities/Path to String.vi"/>
+		<Item Name="Percent-Encode String.vi" Type="VI" URL="../utilities/Percent-Encode String.vi"/>
+		<Item Name="Percent-Decode String.vi" Type="VI" URL="../utilities/Percent-Decode String.vi"/>
+		<Item Name="Extract URI Components.vi" Type="VI" URL="../utilities/Extract URI Components.vi"/>
+		<Item Name="Build URI from Components.vi" Type="VI" URL="../utilities/Build URI from Components.vi"/>
+		<Item Name="isReservedCharacter.vi" Type="VI" URL="../utilities/isReservedCharacter.vi"/>
+		<Item Name="isUnReservedCharacter.vi" Type="VI" URL="../utilities/isUnReservedCharacter.vi"/>
+		<Item Name="isSegmentCharacter.vi" Type="VI" URL="../utilities/isSegmentCharacter.vi"/>
+		<Item Name="isUserInfoCharacter.vi" Type="VI" URL="../utilities/isUserInfoCharacter.vi"/>
+		<Item Name="isHEXDigit.vi" Type="VI" URL="../utilities/isHEXDigit.vi"/>
+		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../utilities/URI Components -- cluster.ctl"/>
 	</Item>
-	<Item Name="typedefs" Type="Folder">
-		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../URI Components -- cluster.ctl"/>
-		<Item Name="Authority Components -- cluster.ctl" Type="VI" URL="../Authority Components -- cluster.ctl"/>
+	<Item Name="URI Components" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="URI-Component.lvclass" Type="LVClass" URL="../components/base/URI-Component.lvclass"/>
+		<Item Name="URI-Component.Path.lvclass" Type="LVClass" URL="../components/path/URI-Component.Path.lvclass"/>
+		<Item Name="URI-Component.Query.lvclass" Type="LVClass" URL="../components/query/URI-Component.Query.lvclass"/>
 	</Item>
-	<Item Name="ParseURI.vi" Type="VI" URL="../ParseURI.vi"/>
-	<Item Name="ConstructURI.vi" Type="VI" URL="../ConstructURI.vi"/>
-	<Item Name="ParseAuthority.vi" Type="VI" URL="../ParseAuthority.vi"/>
-	<Item Name="ConstructAuthority.vi" Type="VI" URL="../ConstructAuthority.vi"/>
+	<Item Name="URI.lvclass" Type="LVClass" URL="../uri/URI.lvclass"/>
 </Library>
