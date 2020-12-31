@@ -31,6 +31,7 @@
 		<Item Name="URI Components -- cluster.ctl" Type="VI" URL="../utilities/URI Components -- cluster.ctl"/>
 	</Item>
 	<Item Name="URI Components" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="URI-Component.lvclass" Type="LVClass" URL="../components/base/URI-Component.lvclass"/>
 		<Item Name="URI-Component.Path.lvclass" Type="LVClass" URL="../components/path/URI-Component.Path.lvclass"/>
 	</Item>
