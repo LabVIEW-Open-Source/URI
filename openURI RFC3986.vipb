@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-31 16:09:31" Creator="normandinf" Comments="" ID="914a2f2eb10a03e1416d529b0ed7ef11">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-31 16:13:21" Creator="normandinf" Comments="" ID="3c65e0d3d4aec2f02af2c75e0fffedab">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_OpenURI</Package_File_Name>
-    <Library_Version>1.0.0.9</Library_Version>
+    <Library_Version>1.0.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
