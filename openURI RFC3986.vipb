@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-30 13:59:42" Creator="normandinf" Comments="" ID="57b1715d22139a4674f8679d2ed6715b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-30 14:39:33" Creator="normandinf" Comments="" ID="d66e6a204a9bbc209a0b5232825e7fd5">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_OpenURI</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -100,12 +100,6 @@
       <Destination_Overrides>
         <Path>.</Path>
         <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>help</Path>
-        <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -406,7 +400,7 @@
         <Path>source\uri</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0626278F35471C332B9D129905B467F</GUID>
+      <GUID>6066641757600B5B3DB6AC7BB9B5C143</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -665,7 +659,7 @@
         <Path>source\uri</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6B1BCA2AAC109767781626425077135</GUID>
+      <GUID>A72BCADFF9E564EFB69495923D9DA866</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -770,7 +764,7 @@
         <Path>source\uri\Delete Query.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6B9968AC0AC843E4A6341C8B171F2D5</GUID>
+      <GUID>B02CC001A70989AEE5758B36202A647F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

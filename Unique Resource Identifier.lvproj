@@ -13,8 +13,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Run All Tests.vi" Type="VI" URL="../tests/Run All Tests.vi"/>
 			<Item Name="Test_URI_Class.vi" Type="VI" URL="../tests/Test_URI_Class.vi"/>
 			<Item Name="Test_URI Parsing.vi" Type="VI" URL="../tests/Test_URI Parsing.vi"/>
+			<Item Name="Test_SharedNetworkVariable.vi" Type="VI" URL="../tests/Test_SharedNetworkVariable.vi"/>
+			<Item Name="Test_IOVariable.vi" Type="VI" URL="../tests/Test_IOVariable.vi"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="openURI on Github.vi" Type="VI" URL="../source/tools/openURI on Github.vi"/>
