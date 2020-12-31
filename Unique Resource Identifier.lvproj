@@ -24,6 +24,9 @@
 		<Item Name="Tools" Type="Folder">
 			<Item Name="openURI on Github.vi" Type="VI" URL="../source/tools/openURI on Github.vi"/>
 		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="OpenURI - Basic Example.vi" Type="VI" URL="../source/examples/OpenURI - Basic Example.vi"/>
+		</Item>
 		<Item Name="openURI.lvlib" Type="Library" URL="../source/openURI.lvlib"/>
 		<Item Name="URI RFC3986" Type="Hyperlink">
 			<Property Name="NI.Address" Type="Str">https://tools.ietf.org/html/rfc3986</Property>
