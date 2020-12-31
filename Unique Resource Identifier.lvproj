@@ -16,6 +16,7 @@
 			<Item Name="Run All Tests.vi" Type="VI" URL="../tests/Run All Tests.vi"/>
 			<Item Name="Test_URI_Class.vi" Type="VI" URL="../tests/Test_URI_Class.vi"/>
 			<Item Name="Test_URI_Class_SetPath.vi" Type="VI" URL="../tests/Test_URI_Class_SetPath.vi"/>
+			<Item Name="Test_URI_Class_SetQuery.vi" Type="VI" URL="../tests/Test_URI_Class_SetQuery.vi"/>
 			<Item Name="Test_URI Parsing.vi" Type="VI" URL="../tests/Test_URI Parsing.vi"/>
 			<Item Name="Test_SharedNetworkVariable.vi" Type="VI" URL="../tests/Test_SharedNetworkVariable.vi"/>
 			<Item Name="Test_IOVariable.vi" Type="VI" URL="../tests/Test_IOVariable.vi"/>

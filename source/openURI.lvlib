@@ -34,6 +34,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="URI-Component.lvclass" Type="LVClass" URL="../components/base/URI-Component.lvclass"/>
 		<Item Name="URI-Component.Path.lvclass" Type="LVClass" URL="../components/path/URI-Component.Path.lvclass"/>
+		<Item Name="URI-Component.Query.lvclass" Type="LVClass" URL="../components/query/URI-Component.Query.lvclass"/>
 	</Item>
 	<Item Name="URI.lvclass" Type="LVClass" URL="../uri/URI.lvclass"/>
 </Library>
