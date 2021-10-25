@@ -20,6 +20,7 @@
 			<Item Name="Test_URI_Class_SetQuery.vi" Type="VI" URL="../tests/Test_URI_Class_SetQuery.vi"/>
 			<Item Name="Test_URI Parsing.vi" Type="VI" URL="../tests/Test_URI Parsing.vi"/>
 			<Item Name="Test_SharedNetworkVariable.vi" Type="VI" URL="../tests/Test_SharedNetworkVariable.vi"/>
+			<Item Name="Test_LocalPathMapping.vi" Type="VI" URL="../tests/Test_LocalPathMapping.vi"/>
 			<Item Name="Test_IOVariable.vi" Type="VI" URL="../tests/Test_IOVariable.vi"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
