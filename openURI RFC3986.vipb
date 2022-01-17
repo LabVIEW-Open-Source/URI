@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2021-10-24 19:54:41" Creator="normandinf" Comments="" ID="cbf4a949b73b6fe0cea69ed98047f400">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-01-16 18:19:54" Creator="normandinf" Comments="" ID="d06b0543919e34f04f9e98f45de311a6">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_OpenURI</Package_File_Name>
-    <Library_Version>1.1.0.11</Library_Version>
+    <Library_Version>1.2.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -34,10 +34,8 @@
       <Copyright/>
       <Packager>Francois Normandin</Packager>
       <URL>https://github.com/LabVIEW-Open-Source/URI</URL>
-      <Release_Notes>[Feature: 2] Added a method to append the query elements to an existing attribute variant
-[Feature: 3] Adding a method to read a single element from a URI containing a query string
-[Feature: 4] Get Path.vi now has an optional flag to strip the leading slash
-[Feature: 5] Adding a mapping method to quickly go from URI to Local Path folder</Release_Notes>
+      <Release_Notes>[Fix #6] Fixed the "Construct Path Component" utility VI
+[Feature #7] OpenURI now supports "context" (as a String) as well as "port" (as a U16) for better flexibility (feature required to support NI Network Stream protocol)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -178,6 +176,7 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -459,7 +458,7 @@
         <Path>source\examples\OpenURI - Basic Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE8AEA1A331BA4086C8ABB1609C10957</GUID>
+      <GUID>05761530C886EF6EA6A7EF580E02EF36</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -606,7 +605,7 @@
         <Path>source\uri\Map to Local Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>97D8D0308159898712761877FB860A9E</GUID>
+      <GUID>891CC99ACDB5ACE8BDB205904BC6527E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -753,7 +752,7 @@
         <Path>source\uri\Get Query (as Variant Attributes).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>137C036E39B1C2CE10CFECFEAF21872A</GUID>
+      <GUID>04094103A5EC6C662F568EFE1674F385</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -802,7 +801,7 @@
         <Path>source\uri\Write scheme.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91650666CAF51459EAD6922B34FF27C5</GUID>
+      <GUID>D157A4392291D17EF6BAA4E66E687F7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -935,7 +934,35 @@
         <Path>source\uri\Write password.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D85D3D7A23494896C6171B5FC5C1106</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Context.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\uri\Read Context.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Context.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\uri\Write Context.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>2C2833C7E51325EE1786EDC21612C509</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1026,7 +1053,7 @@
         <Path>source\components\path\Percent-Encode Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>654E09F94E901957F6176F9EACBF5B69</GUID>
+      <GUID>3651100F11165328840F6A665C14BD1B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
