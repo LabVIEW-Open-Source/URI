@@ -27,8 +27,11 @@ Query can further be decomposed into key-value pairs:
 * 1st pair: key = "query", value = "test"
 * 2nd pair: key = "query2", value = "test2"
 
+UTF-8 encoding support from version 1.3.0
+* percent-encoding
+* html entities
+
 Planned future development includes:
 
 * validation of URIs
 * recognition of URN and URL specificities, including IPv4 and IPv6
-* percent-encoding, HTML entities, etc.
